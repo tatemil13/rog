@@ -1,0 +1,12 @@
+.cnLayoutRoot {
+    min-height: 100vh;
+    /* background: url(https://avatars.mds.yandex.net/i?id=6fa8a27f997cf6c9034f76897a51216041e91558-8199736-images-thumbs&n=13) center ; */
+    background-color: #ffffff; 
+}
+
+.cnLayoutBody {
+    max-width: 1080px;
+    margin: auto;
+}
+
+
