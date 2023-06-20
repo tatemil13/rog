@@ -9,9 +9,7 @@ const Layout = ({
 }) => {
     return (
         <div className="cnLayoutRoot">
-            <Navbar nickName={nickName} avatarUrl={avatarUrl} id={id} /> 
-            
-            
+            <Navbar nickName={nickName} avatarUrl={avatarUrl} id={id} />
             <div className="cnLayoutBody">
                 {children}
             </div>

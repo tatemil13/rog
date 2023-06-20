@@ -17,7 +17,7 @@ const MainPage = () => {
     const mutateLoading = useSelector(state => state.photos.isMutateLoading);
     const dispatch = useDispatch();
 
-    const [page, setPage] = useState(1);//хук
+    const [page, setPage] = useState(1);
 
     useEffect(() => {
         dispatch(getPhotos(page));
@@ -39,7 +39,7 @@ const MainPage = () => {
     return (
         <Layout nickName={authorizedUser.nickname} id={authorizedUser.id} avatarUrl={authorizedUser.avatarUrl}>
             <div className="cnMainPageRoot">
-                {isLoading && <Bars color="#000" height={15} width={15} />}
+                {isLoading && <Bars color="#000BFF" height={15} width={15} />}
                 {!isError && !isLoading && <InfiniteScroll
                     dataLength={photos.length}
                     next={nextHandler}

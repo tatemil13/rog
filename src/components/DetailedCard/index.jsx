@@ -3,12 +3,11 @@ import cn from 'classnames';
 import { nanoid } from 'nanoid';
 import Comment from '../Comment';
 import UserBadge from '../UserBadge';
-// import PhotoModal from '../PhotoModal';
-// import TextArea from '../TextArea';
-// import ImageWithLoader from '../ImageWithLoader';
+import PhotoModal from '../PhotoModal';
+import TextArea from '../TextArea';
+import ImageWithLoader from '../ImageWithLoader';
 
 import './styles.css';
-
 
 const DetailedCard = ({
     userName,

@@ -1,8 +1,7 @@
 import { api } from "../../api";
-// import { getUserPagePostData } from "../../utils";
+import { getUserPagePostData } from "../../utils";
 import { mutatePhotoFailed, mutatePhotoStarted, mutatePhotoSuccess } from "../actionCreators/photos";
 import { getPostsFailed, getPostsStarted, getPostsSuccess } from "../actionCreators/postsByUser"
-
 
 export const getPostsByUser = (userId) => {
     return async (dispatch) => {

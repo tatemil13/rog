@@ -1,5 +1,5 @@
 import axios from "axios";
-// import { getError } from "../utils";
+import { getError } from "../utils";
 
 const API_ENDPOINT = 'http://localhost:3000';
 

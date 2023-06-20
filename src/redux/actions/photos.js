@@ -1,5 +1,5 @@
 import { api } from "../../api";
-// import { getPhotoFromState, getUpdatedPhotoForState } from "../../utils";
+import { getPhotoFromState, getUpdatedPhotoForState } from "../../utils";
 import { getPhotosFailed, getPhotosStarted, getPhotosSuccess, mutatePhotoFailed, mutatePhotoStarted, mutatePhotoSuccess, setPhotosTotal } from "../actionCreators/photos"
 
 export const getPhotos = (page = 1) => {
